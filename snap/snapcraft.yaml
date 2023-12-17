@@ -1,0 +1,70 @@
+name: chirpstack
+version: '0.1'
+title: ChirpStack LoRaWAN Network server
+summary: ChirpStack server for ctrlX
+description: |
+      ChirpStack is an open-source LoRaWAN Network Server which can be used to setup LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data.
+
+base: core22
+confinement: strict
+grade: stable
+type: app
+
+apps:
+  network-server:
+    command: start-network-server.sh
+    daemon: simple
+    restart-condition: always
+    plugs: [network, network-bind]
+    passthrough:
+      restart-delay: 10s
+
+  application-server:
+    command: start-application-server.sh
+    daemon: simple
+    restart-condition: always
+    plugs: [network, network-bind]
+    passthrough:
+      restart-delay: 10s
+
+parts:
+  network-server:
+    source: git@github.com:brocaar/chirpstack-network-server.git 
+    plugin: go
+    build-snaps:
+      - go
+
+  application-server:
+    after: [network-server]
+    source: git@github.com:brocaar/chirpstack-application-server.git
+    plugin: make
+    override-build: |
+      sed -i "s/@GOOS=.*//g" Makefile   # Building Swagger API fails in snapcraft, excluded
+      make ui-requirements
+      make build
+    override-prime:
+      cp ../parts/application-server/build/build/chirpstack-application-server bin/
+
+  configs:
+      plugin: dump
+      source: configs
+      organize:
+        'package-assets/*': package-assets/${SNAPCRAFT_PROJECT_NAME}/
+
+  scripts:
+    plugin: dump
+    source: snap/local
+
+slots: 
+  package-assets:
+      interface: content
+      content: package-assets
+      source:
+        read:
+        - $SNAP/package-assets/${SNAPCRAFT_PROJECT_NAME}
+
+plugs:
+  active-solution:
+    interface: content
+    content: solutions
+    target: $SNAP_COMMON/solutions

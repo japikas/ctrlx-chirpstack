@@ -1,0 +1,44 @@
+{
+    "id": "chirpstack",
+    "version": "1.0.0",
+    "services": {
+	"proxyMapping": [
+	    {
+		"name": "chirpstack.web",
+		"url": "/chirpstack",
+		"binding": ":8080"
+	    }
+	]
+    },    
+    "menus": {
+	"sidebar": [
+	    {
+		"id": "chirpstack",
+		"title": "LoRaWAN",
+		"icon": "bosch-ic-solutions",
+		"permissions": [],
+		"items": [
+		    {
+			"id": "chirpstack-ui",
+			"title": "Chirpstack",
+			"link": "http://${hostname}:8080/",
+			"target":"chirpstack-ui",
+			"permissions": []
+		    }
+		]
+	    }
+	]
+    },    
+    "configuration": {
+        "appDirectories": [
+            {
+                "name": "chirpstack",
+                "description": "Chirpstack LoRaWAN server",
+                "icon": "bosch-ic-directory",
+                "scopes": [],
+                "copyOnLoad": true,
+                "writeprotected": false
+            }
+        ]
+    }
+} 
