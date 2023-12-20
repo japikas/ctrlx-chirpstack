@@ -10,9 +10,9 @@ LoRaWAN Network Server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/micr
 
 ## Prerequisites
 
-System running [ctrlX OS](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-os/) is needed, either 
+To use the application, system running [ctrlX OS](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-os/) is needed, either 
 - [ctrlX CORE](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-core/) - Industrial Control System
-- [ctrlX WORKS](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-works/) COREvirtual - Develop pment environment for Windows
+- [ctrlX WORKS](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-works/) COREvirtual - Developpment environment for Windows
 - or some custom hardware platform
 
 Following services are needed in ctrlX platform:
