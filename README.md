@@ -5,16 +5,16 @@ LoRaWAN Network Server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/micr
 
 ## ChirpStack
 
->[ChirpStack](https://www.chirpstack.io) is an open-source LoRaWAN Network Server which can be used to setup LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data. ChirpStack provides a gRPC based API that can be used to integrate or extend ChirpStack.
->
-> [www.chirpstack.io](https://www.chirpstack.io)
+[ChirpStack](https://www.chirpstack.io) is an open-source LoRaWAN Network Server which can be used to setup LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data. ChirpStack provides a gRPC based API that can be used to integrate or extend ChirpStack.
+
+[www.chirpstack.io](https://www.chirpstack.io)
 
 >[!NOTE]
 > This project builds for ChirpStack v3. The ChirpStack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
 
 ## ctrlX - Secure and Open platform for Automation
 
-**ctrlX** is Open Industry-grade platform for Automation. ctrlX CORE is certified according to [IEC 62443](https://en.wikipedia.org/wiki/IEC_62443) cybersecurity requirements for operational technology (OT) in automation and control systems. Key elements contributing to security are secure boot (TPM 2.0), trusted execution, and snap package containers derived from Ubuntu Core. 
+**[ctrlX](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/)** is Open Industry-grade platform for Automation. [ctrlX CORE is certified](https://dc-corp.resource.bosch.com/media/xc/company_1/press/product_information/product_information_2021/august_3/PI__021_21_ctrlX_AUTOMATION_Security_en.pdf) according to [IEC 62443](https://en.wikipedia.org/wiki/IEC_62443) cybersecurity requirements for operational technology (OT) in automation and control systems. Key elements contributing to security are secure boot (TPM 2.0), trusted execution, and snap package containers derived from [Ubuntu Core](https://ubuntu.com/core). 
 
 ctrlX CORE provides tamper-proof execution environment for applications, making it ideal for field deployments of IoT and Automation - use-cases where the hardware is in someone elses hands. ctrlX provides long term maintenance of platforms and applications with device management and remote management functions in place. System and 3rd party applications are distributed via [ctrlX Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store) also.
 
