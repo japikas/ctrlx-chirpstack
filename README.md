@@ -6,7 +6,7 @@ LoRaWAN Network Server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/micr
 >[ChirpStack](https://www.chirpstack.io) is an open-source LoRaWAN Network Server which can be used to setup LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data. ChirpStack provides a gRPC based API that can be used to integrate or extend ChirpStack.
 
 >[!NOTE]
-> This project builds for Chirpstack v3. The Chirpstack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
+> This project builds for ChirpStack v3. The ChirpStack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
 
 ## Prerequisites
 
@@ -60,7 +60,7 @@ $ sudo apt install npm
 
 This is needed to access to Chirpstack sources. 
 >[!IMPORTANT]
->Github account needed.
+>GitHub account required.
 
 ```
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
