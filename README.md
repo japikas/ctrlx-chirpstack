@@ -24,8 +24,8 @@ See build instructions below.
 
 ### Host server
 
-Create Ubuntu server or desktop environment 22.04 or newer.
-Use one of you choice:
+Create Ubuntu desktop or server environment 22.04 or newer.
+Use one of your choice:
 - Physical computer
 - Virtual computer
 - Cloud server
