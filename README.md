@@ -100,3 +100,6 @@ $ cd ctrlx-chirpstack/
 $ snapcraft --destructive-mode
 $ cd ..
 ```
+## Support
+
+For commercial support, please contact [Etteplan](https://www.etteplan.com).
