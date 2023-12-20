@@ -16,7 +16,7 @@ ctrlX is ideal deployment platform for any IoT and Automation applications.
 
 >**Cloud: your software on someone else's computer**
 >
->**IoT: your computer in someone else's hand**
+>**IIoT: your computer in someone else's hands**
 
 ## Prerequisites
 
