@@ -19,9 +19,9 @@ ctrlX CORE control system provides tamper-proof execution environment for applic
 <img src="https://apps.boschrexroth.com/microsites/ctrlx-automation/files/ctrlx/Produkte/CORE/DC-AE_ctrlX_CORE_PST3315_02_432x750px.jpg" width="250">
 
 **ctrlX** is ideal field deployment platform for any IoT and Automation applications.
-
+>[!TIP]
 >**Cloud: your software on someone else's computer**
-
+>
 >**IIoT: your computer in someone else's hands**
 
 ## Prerequisites
