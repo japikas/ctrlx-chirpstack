@@ -42,7 +42,8 @@ $ sudo apt install npm
 **Ssh keys for GitHub**
 
 This is needed to access to Chirpstack sources. 
-NB! Github account needed.
+>[!NOTE]
+>Github account needed.
 
 ```
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
