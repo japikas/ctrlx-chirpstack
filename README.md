@@ -32,7 +32,7 @@ Use one of your choice:
 - [ctrlX WORKS](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-works/) for Windows (Ubuntu comes pre-installed in App Build Environment)
 
 >[!WARNING]
-> Please bear in mind snaps are build with `--destructive-mode` flag, which means the snapcraft build system may mess up with your host environment. Use of virtualisation of some type is recommended.
+> Please bear in mind snaps are build with `--destructive-mode` flag, which means the snapcraft build system may mess up with your host environment. Virtualisation of some kind is recommended for "disposable" host development environment.
 
 ### ctrlX SDK installation
 ```
