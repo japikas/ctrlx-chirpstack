@@ -15,14 +15,15 @@ LoRaWAN Network server
 
 ### Host server
 
-Create Ubuntu server or desktop environment 22.04 or newer
+Create Ubuntu server or desktop environment 22.04 or newer.
 Use one of you choice:
 - Physical computer
 - Virtual computer
 - Cloud server
 - ctrlX WORKS in Windows (Ubuntu comes pre-installed in App Build Environment)
 
-Please bear in mind snaps are build with --destructive-mode flag, which means the build may mess up with your host environment. Use of virtualisation of some type is recommended.
+>[!WARN]
+> Please bear in mind snaps are build with `--destructive-mode` flag, which means the build may mess up with your host environment. Use of virtualisation of some type is recommended.
 
 ### ctrlX SDK installation
 ```
