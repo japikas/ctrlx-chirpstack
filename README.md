@@ -21,7 +21,7 @@ ctrlX CORE control system provides tamper-proof execution environment for applic
 **ctrlX** is ideal field deployment platform for any IoT and Automation applications.
 
 >**Cloud: your software on someone else's computer**
->
+
 >**IIoT: your computer in someone else's hands**
 
 ## Prerequisites
