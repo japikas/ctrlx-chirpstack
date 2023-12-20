@@ -16,7 +16,7 @@ LoRaWAN Network Server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/micr
 
 ctrlX CORE provides tamper-proof execution environment for applications, making it ideal for field deployments of IoT and Automation - use-cases where the hardware is in someone elses hands. ctrlX provides long term maintenance of platforms and applications with device management and remote management functions in place. System and 3rd party applications are distributed via [ctrlX Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store) also.
 
-<img src="https://apps.boschrexroth.com/microsites/ctrlx-automation/files/ctrlx/Produkte/CORE/DC-AE_ctrlX_CORE_PST3315_02_432x750px.jpg width=250">
+<img src="https://apps.boschrexroth.com/microsites/ctrlx-automation/files/ctrlx/Produkte/CORE/DC-AE_ctrlX_CORE_PST3315_02_432x750px.jpg" width="250">
 
 **ctrlX** is ideal field deployment platform for any IoT and Automation applications.
 
