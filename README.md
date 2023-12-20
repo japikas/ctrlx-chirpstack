@@ -22,7 +22,7 @@ Use one of you choice:
 - Cloud server
 - ctrlX WORKS in Windows (Ubuntu comes pre-installed in App Build Environment)
 
->[!WARN]
+>[!WARNING]
 > Please bear in mind snaps are build with `--destructive-mode` flag, which means the build may mess up with your host environment. Use of virtualisation of some type is recommended.
 
 ### ctrlX SDK installation
