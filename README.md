@@ -10,9 +10,9 @@ LoRaWAN Network Server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/micr
 >[!NOTE]
 > This project builds for ChirpStack v3. The ChirpStack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
 
-ctrlX is an open Industry-grade platform for automation. ctrlX CORE is certified according to IEC 62443 cyber security requirements. Key elements contributing to security are secure boot (TPM 2.0), trusted execution, and snap package containers derived from Ubuntu Core. ctrlX CORE provides tamper-proof execution environment for applications, making it ideal for field deployments of IoT and Automation - use-cases where the hardware is in someone elses hands. ctrlX provides long term maintenance of platforms and applications with device management and remote management functions in place. System and 3rd party applications are distributed via [ctrlX Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store) also.
+**ctrlX** is an open Industry-grade platform for automation. ctrlX CORE is certified according to IEC 62443 cyber security requirements. Key elements contributing to security are secure boot (TPM 2.0), trusted execution, and snap package containers derived from Ubuntu Core. ctrlX CORE provides tamper-proof execution environment for applications, making it ideal for field deployments of IoT and Automation - use-cases where the hardware is in someone elses hands. ctrlX provides long term maintenance of platforms and applications with device management and remote management functions in place. System and 3rd party applications are distributed via [ctrlX Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store) also.
 
-ctrlX is ideal deployment platform for any IoT and Automation applications.
+**ctrlX** is ideal field deployment platform for any IoT and Automation applications.
 
 >**Cloud: your software on someone else's computer**
 >
