@@ -102,6 +102,11 @@ $ cd ctrlx-chirpstack/
 $ snapcraft --destructive-mode
 $ cd ..
 ```
-## Support
+# Deployment & configuration
+
+T.B.D.
+
+# Support
 
 For commercial support, please contact [Etteplan](https://www.etteplan.com).
+`jaakko dot ala dash paavola at etteplan dot com`
