@@ -14,9 +14,9 @@ ctrlX is an open Industry-grade platform for automation. ctrlX CORE is certified
 
 ctrlX is ideal deployment platform for any IoT and Automation applications.
 
->Cloud: your software on someone elses computer
+>**_Cloud: your software on someone else's computer
 >
->IoT: your computer in someone elses hands
+>IoT: your computer in someone else's hand _**
 
 ## Prerequisites
 
