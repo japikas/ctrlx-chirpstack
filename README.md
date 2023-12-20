@@ -1,6 +1,8 @@
 # ctrlx-chirpstack
 LoRaWAN Network Server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/).
 
+This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95) complient architectures in Industrial automation and IoT (I-IT), enabling field deployment of LoRaWAN IoT Network Server.
+
 <img src="https://repository-images.githubusercontent.com/281103347/a11b1300-ca97-11ea-8c3a-207ffbdfcf88" width="250">
 
 ## ChirpStack
