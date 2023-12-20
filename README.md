@@ -5,9 +5,13 @@ LoRaWAN Network server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/micr
 
 ## Pre-requisities
 
+Following services are needed in ctrlX platform:
+
 - Mosquitto [https://github.com/japikas/ctrlx-mosquitto.git](https://github.com/japikas/ctrlx-mosquitto)
 - Redis [https://github.com/japikas/ctrlx-redis](https://github.com/japikas/ctrlx-redis)
 - Postgres [https://github.com/japikas/ctrlx-postgres](https://github.com/japikas/ctrlx-postgres)
+
+See build instructions below.
 
 # Build instructions
 
@@ -22,7 +26,7 @@ Use one of you choice:
 - Physical computer
 - Virtual computer
 - Cloud server
-- ctrlX WORKS in Windows (Ubuntu comes pre-installed in App Build Environment)
+- [ctrlX WORKS](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-works/) in Windows (Ubuntu comes pre-installed in App Build Environment)
 
 >[!WARNING]
 > Please bear in mind snaps are build with `--destructive-mode` flag, which means the snapcraft build system may mess up with your host environment. Use of virtualisation of some type is recommended.
