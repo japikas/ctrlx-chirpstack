@@ -6,7 +6,7 @@ LoRaWAN Network Server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/micr
 >[!NOTE]
 > This project builds for Chirpstack v3. The Chirpstack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
 
-## Pre-requisities
+## Prerequisites
 
 Following services are needed in ctrlX platform:
 
