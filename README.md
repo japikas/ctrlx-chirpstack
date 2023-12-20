@@ -20,8 +20,8 @@ To use the application, system running [ctrlX OS](https://apps.boschrexroth.com/
 Following services are needed in ctrlX platform:
 
 - Mosquitto [https://github.com/japikas/ctrlx-mosquitto.git](https://github.com/japikas/ctrlx-mosquitto)
-- Redis [https://github.com/japikas/ctrlx-redis](https://github.com/japikas/ctrlx-redis)
 - Postgres [https://github.com/japikas/ctrlx-postgres](https://github.com/japikas/ctrlx-postgres)
+- Redis [https://github.com/japikas/ctrlx-redis](https://github.com/japikas/ctrlx-redis)
 
 See build instructions below.
 
