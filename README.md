@@ -3,6 +3,9 @@ LoRaWAN Network server for [ctrlX AUTOMATION](https://apps.boschrexroth.com/micr
 
 >[ChirpStack](https://www.chirpstack.io) is an open-source LoRaWAN Network Server which can be used to setup LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data. ChirpStack provides a gRPC based API that can be used to integrate or extend ChirpStack.
 
+>[!NOTE]
+> This project builds for Chirpstack v3. 
+
 ## Pre-requisities
 
 Following services are needed in ctrlX platform:
@@ -26,7 +29,7 @@ Use one of you choice:
 - Physical computer
 - Virtual computer
 - Cloud server
-- [ctrlX WORKS](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-works/) in Windows (Ubuntu comes pre-installed in App Build Environment)
+- [ctrlX WORKS](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/portfolio/ctrlx-works/) for Windows (Ubuntu comes pre-installed in App Build Environment)
 
 >[!WARNING]
 > Please bear in mind snaps are build with `--destructive-mode` flag, which means the snapcraft build system may mess up with your host environment. Use of virtualisation of some type is recommended.
