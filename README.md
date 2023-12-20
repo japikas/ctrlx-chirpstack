@@ -18,7 +18,7 @@ See build instructions below.
 
 # Build instructions
 
-## ctrlX 2.4 development environment & Application Build
+[ctrlX SDK](https://boschrexroth.github.io/ctrlx-automation-sdk/overview.html) is needed to build snap packages for ctrlX.
 
 ## Setup
 
