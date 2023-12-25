@@ -5,11 +5,7 @@
 >[!NOTE]
 > This project builds for ChirpStack v3. The ChirpStack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
 >
-> v3 and v4 differ in:
-> - programming language
-> - build tools
-> - APIs
-> - 
+> v3 and v4 differ in: programming language, build tools, APIs and more.
 
 This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95) compliant architectures in Industrial automation and IoT (I-IoT), enabling field deployment of [LoRaWAN](https://en.wikipedia.org/wiki/LoRa) IoT Network Server with help of [ctrlX AUTOMATION](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/) technology. This project provides recipe to build the LoRaWAN server and other neccessary components as snap packages for execution in ctrlX platform.
 
