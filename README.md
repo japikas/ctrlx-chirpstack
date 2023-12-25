@@ -125,9 +125,13 @@ $ cd ..
 ```
 # Deployment & configuration
 
+## Installation
+
 Install packages by uploading from your computer via the Web dashboard of your ctrlX system. 
 
-> Home -> Install an app -> Install from file
+``
+Home -> Install an app -> Install from file
+```
 
 >[!NOTE]
 >Enable unsigned applications in Settings of App management
@@ -135,7 +139,28 @@ Install packages by uploading from your computer via the Web dashboard of your c
 
 Install prerequisites first: Mosquitto, Postgres and Redis. Install Chiprstack after that.
 
+## Configuration
 
+Configuration files of ChirpStack, Mosquitto and Redis are available in ctrlX dashboard. Due to technical reason, configuration and database files of Postgress are not available for user.
+
+```
+Home -> Manage app data
+```
+
+Applications persistent data storage is provided by Rexroth Solutions app. In newer ctrlX OS releases, 2.4 and later, Web Dashboard can be used to edit configuration files as necessary. In older ctrlX OS releases, dashboard does not provide editing function. User can mount the storage with WebDav.
+
+WebDav can be mounted as remote file system for easy of access, or accessed with separate applications like WinSCP, as explained [here](https://boschrexroth.github.io/ctrlx-automation-sdk/persistdata.html#accessing-configuration-files-per-webdav). With web browser, the WebDav resource is accessible in read-only mode.
+
+> [!TIP]
+> Instructions how to mount WebDav resource as filesystem in [Windows](https://espace.cern.ch/winservices-help/DFS/WebDAV/Pages/UsingWebDAVFromWindows.aspx). [Linux](https://espace.cern.ch/winservices-help/DFS/WebDAV/Pages/UsingDavfsOnOlderLinux.aspx), [Mac](https://espace.cern.ch/winservices-help/DFS/WebDAV/Pages/UsingWebDAVFromMacOSX.aspx).
+
+For instructions how to configure applications, please consult corresponding documentation:
+
+- [ChirpStack v3](Windows](https://espace.cern.ch/winservices-help/DFS/WebDAV/Pages/UsingWebDAVFromWindows.aspx)
+- [Mosquitto](https://mosquitto.org/man/mosquitto-conf-5.html)
+- [Redis](https://redis.io/docs/management/config/9)
+
+Postgres is not user configurable in this project at the moment.
 
 # Support
 
