@@ -13,6 +13,9 @@ This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95)
 >[!NOTE]
 > This project builds for ChirpStack v3. The ChirpStack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
 
+>[!NOTE]
+> This project does not contain `chirpstack-gateway-bridge` application. Thus that must be installed on gateway-side. Consider ChirpStack OS v3 as an option.
+
 ## ctrlX - Secure and Open platform for Automation
 
 **[ctrlX](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/)** is Open, Industry-grade platform for Automation. [ctrlX CORE is certified](https://dc-corp.resource.bosch.com/media/xc/company_1/press/product_information/product_information_2021/august_3/PI__021_21_ctrlX_AUTOMATION_Security_en.pdf) according to [IEC 62443](https://en.wikipedia.org/wiki/IEC_62443) cybersecurity requirements for operational technology (OT) in automation and control systems. Key elements contributing to security are secure boot (TPM 2.0), trusted chain of execution, and isolated snap containers derived from [Ubuntu Core](https://ubuntu.com/core). 
@@ -122,7 +125,17 @@ $ cd ..
 ```
 # Deployment & configuration
 
-T.B.D.
+Install packages by uploading from your computer via the Web dashboard of your ctrlX system. 
+
+> Home -> Install an app -> Install from file
+
+>[!NOTE]
+>Enable unsigned applications in Settings of App management
+>Settings -> Apps -> Settings -> Allow installation from unknow source
+
+Install prerequisites first: Mosquitto, Postgres and Redis. Install Chiprstack after that.
+
+
 
 # Support
 
