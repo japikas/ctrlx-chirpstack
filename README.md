@@ -18,7 +18,7 @@ This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95)
 This project does not contain `chirpstack-gateway-bridge` application. Thus that must be installed on gateway-side. Consider [ChirpStack OS v3](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html) as an option.
 
 >[!NOTE]
->This project, as is, does not support most of commercial gateways. Only gateways build on Raspberry Pi with integrated `chirpstack-gateway-bridge` are supported.
+>This project, as is, does not support most of commercial gateways. Only gateways build on Raspberry Pi with integrated chirpstack-gateway-bridge are supported.
 
 ## ctrlX - Secure and Open platform for Automation
 
