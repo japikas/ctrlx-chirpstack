@@ -130,14 +130,15 @@ $ cd ..
 Install packages by uploading from your computer via the Web dashboard of your ctrlX system. 
 
 ```
-Home -> Install an app -> Install from file
+ctrlX Home -> Install an app -> Install from file
 ```
 
 >[!NOTE]
 > Enable execution of unsigned applications in Settings of App management
+>```
+> ctrlX Home -> Settings -> Apps -> Settings -> Allow installation from unknow source
+>```
 >
-> Home -> Settings -> Apps -> Settings -> Allow installation from unknow source
-
 Install prerequisites first: Mosquitto, Postgres and Redis. Install Chiprstack after that.
 
 ## Configuration
