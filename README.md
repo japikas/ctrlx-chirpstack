@@ -134,8 +134,9 @@ Home -> Install an app -> Install from file
 ```
 
 >[!NOTE]
->Enable unsigned applications in Settings of App management
->Settings -> Apps -> Settings -> Allow installation from unknow source
+> Enable execution of unsigned applications in Settings of App management
+>
+> Home -> Settings -> Apps -> Settings -> Allow installation from unknow source
 
 Install prerequisites first: Mosquitto, Postgres and Redis. Install Chiprstack after that.
 
