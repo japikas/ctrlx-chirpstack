@@ -48,7 +48,7 @@ See build instructions below.
 
 # Build instructions
 
-[ctrlX SDK](https://boschrexroth.github.io/ctrlx-automation-sdk/overview.html) is needed to build snap packages for ctrlX. This project uses latest 2.4 version (2023-12).
+[ctrlX SDK](https://boschrexroth.github.io/ctrlx-automation-sdk/overview.html) is needed to build snap packages for ctrlX. This project uses latest 2.4 version (2023-12) of the SDK.
 
 Applications are build against **core22**.
 
