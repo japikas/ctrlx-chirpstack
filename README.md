@@ -143,7 +143,7 @@ Install prerequisites first: Mosquitto, Postgres and Redis. Install Chiprstack a
 
 ## Configuration
 
-Configuration files of ChirpStack, Mosquitto and Redis are available in ctrlX dashboard. Due to technical reason, configuration and database files of Postgress are not available for user.
+Configuration files of ChirpStack, Mosquitto and Redis are available in ctrlX dashboard. Due to technical reason, configuration and database files of Postgress are currently not available for user.
 
 ```
 Home -> Manage app data
