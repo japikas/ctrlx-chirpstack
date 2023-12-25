@@ -2,6 +2,15 @@
 
 ## LoRaWAN Network Server for ctrlX
 
+>[!NOTE]
+> This project builds for ChirpStack v3. The ChirpStack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
+>
+> v3 and v4 differ in:
+> - programming language
+> - build tools
+> - APIs
+> - 
+
 This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95) compliant architectures in Industrial automation and IoT (I-IoT), enabling field deployment of [LoRaWAN](https://en.wikipedia.org/wiki/LoRa) IoT Network Server with help of [ctrlX AUTOMATION](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/) technology. This project provides recipe to build the LoRaWAN server and other neccessary components as snap packages for execution in ctrlX platform.
 
 <img src="https://repository-images.githubusercontent.com/281103347/a11b1300-ca97-11ea-8c3a-207ffbdfcf88" width="250">
@@ -9,9 +18,6 @@ This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95)
 ## ChirpStack
 
 [ChirpStack](https://www.chirpstack.io) is an open-source LoRaWAN Network Server which can be used to setup LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data. ChirpStack provides a gRPC based API that can be used to integrate or extend ChirpStack - [www.chirpstack.io](https://www.chirpstack.io)
-
->[!NOTE]
-> This project builds for ChirpStack v3. The ChirpStack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
 
 >[!NOTE]
 > This project does not contain `chirpstack-gateway-bridge` application. Thus that must be installed on gateway-side. Consider ChirpStack OS v3 as an option.
