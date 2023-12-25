@@ -167,6 +167,13 @@ For instructions how to configure applications, please consult corresponding doc
 
 Postgres is not user configurable in this project at the moment.
 
+### ChirpStack
+
+Configuration of the Network Server is made via the applications own web dashboard, available in port 8080:
+```
+https://<ipaddress>:8080
+```
+
 ### Mosquitto
 For test and development use, public access to MQTT server can be enabled as follows:
 ```
