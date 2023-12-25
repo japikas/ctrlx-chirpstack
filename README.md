@@ -11,7 +11,7 @@ This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95)
 >[!NOTE]
 > This project builds for ChirpStack v3. The ChirpStack web page [www.chirpstack.io](https://www.chirpstack.io) refers to latest version (v4).
 >
-> v3 and v4 differ in: programming language, build tools, APIs and more.
+> v3 and v4 differ in programming language, build tools, APIs and more, making them not backwards compatible [v4 breaking changes](https://www.chirpstack.io/docs/v4-breaking-changes.html)
 
 [ChirpStack](https://www.chirpstack.io) is an open-source LoRaWAN Network Server which can be used to setup LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data. ChirpStack provides a gRPC based API that can be used to integrate or extend ChirpStack - [www.chirpstack.io](https://www.chirpstack.io)
 
