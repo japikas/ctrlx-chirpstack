@@ -129,7 +129,7 @@ $ cd ..
 
 Install packages by uploading from your computer via the Web dashboard of your ctrlX system. 
 
-``
+```
 Home -> Install an app -> Install from file
 ```
 
