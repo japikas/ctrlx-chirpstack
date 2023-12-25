@@ -28,7 +28,7 @@ ctrlX CORE control system provides tamper-proof execution environment for applic
 >[!TIP]
 >**Cloud = your software on someone else's computer**
 >
->**IoT = your computer* in someone else's hands**
+>**IoT = your computer * in someone else's hands**
 
 _*) CPU and MCU considered alike_
 
