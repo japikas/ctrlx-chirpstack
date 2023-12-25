@@ -141,7 +141,7 @@ ctrlX Home -> Install an app -> Install from file
 > ctrlX Home -> Settings -> Apps -> Settings -> Allow installation from unknow source
 >```
 >
-Install prerequisites first: Mosquitto, Postgres and Redis. Install Chiprstack after that.
+Install prerequisites first: Mosquitto, Postgres and Redis. Install ChiprStack last.
 
 ## Configuration
 
