@@ -52,7 +52,7 @@ See build instructions below.
 
 ## Setup development environment
 
-### Host server
+### Host server / Build environment
 
 Create Ubuntu desktop or server environment 22.04 or newer.
 Use one of your choice:
