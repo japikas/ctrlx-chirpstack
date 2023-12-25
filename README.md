@@ -13,8 +13,7 @@ This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95)
 
 [ChirpStack](https://www.chirpstack.io) is an open-source LoRaWAN Network Server which can be used to setup LoRaWAN networks. ChirpStack provides a web-interface for the management of gateways, devices and tenants as well to setup data integrations with the major cloud providers, databases and services commonly used for handling device data. ChirpStack provides a gRPC based API that can be used to integrate or extend ChirpStack - [www.chirpstack.io](https://www.chirpstack.io)
 
->[!NOTE]
-> This project does not contain `chirpstack-gateway-bridge` application. Thus that must be installed on gateway-side. Consider ChirpStack OS v3 as an option.
+This project does not contain `chirpstack-gateway-bridge` application. Thus that must be installed on gateway-side. Consider [ChirpStack OS v3](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html) as an option.
 
 ## ctrlX - Secure and Open platform for Automation
 
