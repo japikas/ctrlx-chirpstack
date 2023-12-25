@@ -158,7 +158,7 @@ WebDav can be mounted as remote file system for easy of access, or accessed with
 
 For instructions how to configure applications, please consult corresponding documentation:
 
-- [ChirpStack v3](Windows](https://espace.cern.ch/winservices-help/DFS/WebDAV/Pages/UsingWebDAVFromWindows.aspx)
+- [ChirpStack v3](https://www.chirpstack.io/docs/v3-documentation.html)
 - [Mosquitto](https://mosquitto.org/man/mosquitto-conf-5.html)
 - [Redis](https://redis.io/docs/management/config/9)
 
