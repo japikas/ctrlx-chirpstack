@@ -167,6 +167,14 @@ For instructions how to configure applications, please consult corresponding doc
 
 Postgres is not user configurable in this project at the moment.
 
+### Mosquitto
+For test and development use, public access to MQTT server can be enabled as follows:
+```
+listener 1883 0.0.0.0
+allow_anonymous true
+```
+This is not recommended for production use. Please consider some other access control strategy.
+
 # Support
 
 For commercial support, please contact [Etteplan](https://www.etteplan.com).
