@@ -17,6 +17,9 @@ This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95)
 
 This project does not contain `chirpstack-gateway-bridge` application. Thus that must be installed on gateway-side. Consider [ChirpStack OS v3](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html) as an option.
 
+>[!IMPORTANT]
+>This project, as is, does not support most of commercial gateways. Only gateways build on Raspberry Pi with integrated `chirpstack-gateway-bridge` are supported.
+
 ## ctrlX - Secure and Open platform for Automation
 
 **[ctrlX](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/)** is Open, Industry-grade platform for Automation. [ctrlX CORE is certified](https://dc-corp.resource.bosch.com/media/xc/company_1/press/product_information/product_information_2021/august_3/PI__021_21_ctrlX_AUTOMATION_Security_en.pdf) according to [IEC 62443](https://en.wikipedia.org/wiki/IEC_62443) cybersecurity requirements for operational technology (OT) in automation and control systems. Key elements contributing to security are secure boot (TPM 2.0), trusted chain of execution, and isolated snap containers derived from [Ubuntu Core](https://ubuntu.com/core). 
