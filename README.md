@@ -156,6 +156,8 @@ Applications persistent data storage is provided by Rexroth Solutions app. In ne
 
 WebDav can be mounted as remote file system for easy of access, or accessed with separate applications like WinSCP, as explained [here](https://boschrexroth.github.io/ctrlx-automation-sdk/persistdata.html#accessing-configuration-files-per-webdav). With web browser, the WebDav resource is accessible in read-only mode.
 
+`https://<device_address>/solutions/webdav/appdata/mosquitto/`
+
 > [!TIP]
 > Instructions how to mount WebDav resource as filesystem in [Windows](https://espace.cern.ch/winservices-help/DFS/WebDAV/Pages/UsingWebDAVFromWindows.aspx). [Linux](https://espace.cern.ch/winservices-help/DFS/WebDAV/Pages/UsingDavfsOnOlderLinux.aspx), [Mac](https://espace.cern.ch/winservices-help/DFS/WebDAV/Pages/UsingWebDAVFromMacOSX.aspx).
 
