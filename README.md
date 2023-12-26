@@ -1,6 +1,6 @@
 # ctrlx-chirpstack
 
-This is unprofessional hobby project.
+This is non-commercial hobby project.
 
 ## LoRaWAN Network Server for ctrlX
 
@@ -191,7 +191,13 @@ This is not recommended for production use. Please consider some other access co
 
 # Credits
 
-This project is a wrapper for number of open source projects. [ctrlX AUTOMATION] is commercial software platform provided by [Bosch Rexroth].
+This project is a wrapping number of open source projects for ctrlX AUTOMATION.
+
+# ctrlX AUTOMATION
+
+[ctrlX AUTOMATION](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/) is commercially released and maintained by [Bosch Rexroth](https://www.boschrexroth.com/). For commercial license, contact your local Bosch Rexroth representative.
+
+[ctrlX SDK](https://github.com/boschrexroth/ctrlx-automation-sdk) is released under the [MIT License](https://github.com/boschrexroth/ctrlx-automation-sdk/blob/main/LICENSE).
 
 ## ChirpStack
 
