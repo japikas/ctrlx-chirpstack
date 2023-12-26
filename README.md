@@ -189,6 +189,34 @@ allow_anonymous true
 ```
 This is not recommended for production use. Please consider some other access control strategy.
 
+# Credits
+
+This project is a wrapper for number of open source projects. [ctrlX AUTOMATION] is commercial software platform provided by [Bosch Rexroth].
+
+## ChirpStack
+
+[Orne Brocaar](https://www.brocaar.com) is the author and maintainer of [ChirpStack](https://www.chirpstack.io) project. Please consider supporting Orne in his work.
+
+ChirpStack is distributed under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+
+## Mosquitto
+
+[Mosquitto](https://mosquitto.org) is part of the [Eclipse Foundation](https://eclipse.org), and is an iot.eclipse.org project. The development is driven by [Cedalo](https://cedalo.com/mqtt-broker-pro-mosquitto/).
+
+Mosquitto is released under [Eclipse Public License](https://www.eclipse.org/legal/epl-2.0/).
+
+## Postgres
+
+[PostgreSQL](https://www.postgresql.org) is maintained by PostgreSQL Global Development Group. It originates from the University of California, Berkeley.
+
+PostgreSQL is released under the [PostgreSQL License](https://www.postgresql.org/about/licence/), a liberal Open Source license, similar to the BSD or MIT licenses.
+
+## Redis
+
+[Redis](https://redis.io) is maintained by [Redis Ltd](https://redis.com). It's original author is Salvatore Sanfilippo.
+
+Redis is published under [Three clause BDS](https://redis.io/docs/about/license/) license.
+
 # Support
 
 For commercial support, please contact [Etteplan](https://www.etteplan.com).
