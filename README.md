@@ -189,7 +189,7 @@ allow_anonymous true
 ```
 This is not recommended for production use. Please consider some other access control strategy.
 
-# Credits
+# Credits and licenses
 
 This project is a wrapprt for number of open source projects for ctrlX AUTOMATION, maintained by Jaakko Ala-Paavola.
 
