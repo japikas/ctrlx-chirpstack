@@ -191,7 +191,9 @@ This is not recommended for production use. Please consider some other access co
 
 # Credits
 
-This project is a wrapping number of open source projects for ctrlX AUTOMATION.
+This project is a wrapping number of open source projects for ctrlX AUTOMATION, maintained by Jaakko Ala-Paavola.
+
+This project is published under [MIT License](https://github.com/japikas/ctrlx-chirpstack/blob/main/LICENSE).
 
 # ctrlX AUTOMATION
 
