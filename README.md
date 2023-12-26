@@ -195,7 +195,7 @@ This project is a wrapprt for number of open source projects for ctrlX AUTOMATIO
 
 This project is published under [MIT License](https://github.com/japikas/ctrlx-chirpstack/blob/main/LICENSE). This project clones but does not fork any of the given OSS projects.
 
-# ctrlX AUTOMATION
+# ctrlX
 
 [ctrlX AUTOMATION](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/) is commercially released and maintained by [Bosch Rexroth](https://www.boschrexroth.com/). For commercial license, contact your local Bosch Rexroth representative.
 
