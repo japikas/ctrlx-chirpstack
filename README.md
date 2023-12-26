@@ -182,7 +182,7 @@ https://<device_address>:8080
 ```
 
 ### Mosquitto
-For test and development use, public access to MQTT server can be enabled as follows:
+For test and development use, public access to MQTT server can be enabled as follows in `mosquitto.conf` file:
 ```
 listener 1883 0.0.0.0
 allow_anonymous true
