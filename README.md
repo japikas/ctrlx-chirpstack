@@ -2,6 +2,8 @@
 
 This is non-commercial hobby project.
 
+Status: Works for me.
+
 ## LoRaWAN Network Server for ctrlX
 
 This project aims to support [ISA-95](https://en.wikipedia.org/wiki/ANSI/ISA-95) compliant architectures in Industrial automation and IoT (I-IoT), enabling field deployment of [LoRaWAN](https://en.wikipedia.org/wiki/LoRa) IoT Network Server with help of [ctrlX AUTOMATION](https://apps.boschrexroth.com/microsites/ctrlx-automation/en/) technology. This project provides recipe to build the LoRaWAN server and other neccessary components as snap packages for execution in ctrlX platform.
